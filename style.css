@@ -1,0 +1,45 @@
+/* remove spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 45%;
+    height: 45%;
+}
+
+.tile {
+    width: 4.3vw;
+    height: 4.3vw;
+    text-align: center;
+    font-size:xx-large;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 3vw;
+    width: 9vw;
+    margin: 1vw;
+}
+
+.green {
+    background-color: green;
+}
