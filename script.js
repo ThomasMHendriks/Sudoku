@@ -184,8 +184,7 @@ function solve() {
 }
 
 function printSolution() {
-    console.log("solution :o");
-    console.log(sudoku);
+    // Prints the solution to the roster
 
     let counter = 0;
     let grid = document.querySelectorAll(".tile");
